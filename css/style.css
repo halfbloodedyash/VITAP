@@ -1,0 +1,288 @@
+/* Global Styles */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+body {
+    background-color: maroon;
+    color: white;
+    font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: maroon !important;
+    display: flex !important;
+    align-items: center;
+    font-size: large;
+}
+
+.navbar-brand img {
+    width: 190px;
+}
+
+.nav-item.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Carousel Styles */
+.header-carousel {
+    position: relative;
+}
+
+.header-carousel-item {
+    height: 810px;
+    background: rgba(24, 29, 56, .7);
+}
+
+.header-carousel-item h5 {
+    color: #007bff;
+}
+
+.header-carousel-item h1 {
+    color: white;
+}
+
+/* Service Styles */
+.service-item {
+    background: rgba(24, 29, 56, .7);
+    color: white;
+}
+
+.service-item i {
+    color: #007bff;
+}
+
+/* About Styles */
+.section-title {
+    background-color: white;
+    color: #007bff;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* Categories Styles */
+.category {
+    background-color: white;
+    color: #007bff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+/* Courses Styles */
+.course-item {
+    background-color: white;
+    color: #007bff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Team Styles */
+.team-item {
+    background-color: white;
+    color: #007bff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Testimonial Styles */
+.testimonial-item {
+    background-color: white;
+    color: #007bff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+/* Footer Start */
+.footer {
+    background-color: maroon;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #f1f1f1;
+}
+
+.footer .btn-primary {
+    background-color: #f1f1f1;
+    color: maroon;
+    border-color: maroon;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer .btn-primary:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.footer .btn-social {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin: 0 5px;
+}
+
+.footer .btn-social:hover {
+    background-color: white;
+    color: maroon;
+}
+
+.footer input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+}
+
+.footer input[type="text"]::placeholder {
+    color: white;
+}
+
+.footer input[type="text"]:focus {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Footer End */
+/* Footer Start */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center; /* Center align the content */
+}
+
+.footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer .social-icons {
+    margin-top: 20px;
+}
+
+.footer .social-icons a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Contact Section Start */
+.contact {
+    background-color: #f9f9f9;
+    padding: 40px 0; /* Reduce the padding to reduce height */
+    text-align: center; /* Center align the content */
+}
+
+.contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact .contact-form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Display the form inline */
+    text-align: left; /* Align form content to the left */
+}
+
+.contact .contact-form label {
+    font-weight: bold;
+    display: block; /* Display labels as blocks for better spacing */
+    margin-bottom: 5px; /* Add some spacing below labels */
+}
+
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="email"],
+.contact .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    outline: none;
+}
+
+.contact .contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact .contact-form button {
+    background-color: maroon;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact .contact-form button:hover {
+    background-color: #8b0000;
+}
+
+/* About Section Start */
+.about {
+    background-color: #fff;
+    padding: 40px 0; /* Reduce the padding to reduce height */
+    text-align: center; /* Center align the content */
+}
+
+.about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+/* About Section End */
+
+
+/* Additional Sections can be added here */
+
+/* Responsive Styling (optional) */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
